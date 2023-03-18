@@ -1,0 +1,356 @@
+@font-face{
+    font-family: "Roboto";
+    src: url(./Font/Roboto.ttf);
+}
+@font-face{
+    font-family: "Poppins";
+    src: url(./Font/Poppins.ttf);
+}
+
+@font-face{
+    font-family: "Poppins-Light";
+    src: url(./Font/Poppins-Light.ttf);
+}
+
+@font-face{
+    font-family: "Poppins-SemiBold";
+    src: url(./Font/Poppins-SemiBold.ttf);
+}
+
+.BDY{
+   background-color:  #5052E2;
+}
+
+.header{
+
+    width: 100%;
+    height: auto;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.DivLogo{
+
+    width: 220px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Parent_Of_SmallDivs{
+
+    width:  23.54px;
+    height: 23.54px;
+    display: flex;
+    gap: 3.25px;
+    flex-wrap: wrap;
+}
+
+.SmallDivs{
+
+    background-color: #FFFFFF;
+    width:  5.68px;
+    height: 5.68px;
+}
+
+.Div_Crowdfund{
+
+    color: rgba(255, 255, 255, 1);
+    height: 27.45px;
+    width: 175px;
+    font-family: "Poppins";
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 27px;
+}
+
+.HederPersonDiv{
+
+    width: 120px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DivImage_1{
+
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    
+}
+
+.Foto_1{
+
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+
+.Kate{
+    
+    height: 22px;
+    width: 70px;
+    font-family: "Poppins-Light";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+#TitleSec{
+
+    height: 82px;
+    width: 800px;
+    margin-top: 67px;
+    margin-inline: auto;
+    font-family: "Poppins-SemiBold";
+    color:  rgba(255, 255, 255, 1);
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 82px;
+    letter-spacing: -4px;
+    text-align: center;
+    
+}
+
+#sectionText_1{
+
+    height: 68px;
+    width: 610px;
+    margin-inline: auto;
+    margin-top: 33px;
+    font-family: "Poppins-Light";
+    color: rgba(255, 255, 255, 1);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+}
+
+#sectionCards{
+
+    width: 1140px;
+    height: 263px;
+    margin-top: 50px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.CardDivs{
+
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    width: 360px;
+    height: 263px;
+    border-radius: 4px;
+}
+
+.Last_3_Image{
+
+    position: absolute;
+    height: 60px;
+    width: 68px;
+    left: 20px;
+    top: 29px;
+    border-radius: 100px;
+}
+
+.Personsfullname{
+
+    height: 24px;
+    width: 180px;
+    position: absolute;
+    top: 38px;
+    left: 100px;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.MailAdress{
+
+    height: 18px;
+    width: 61px;
+    position: absolute;
+    top: 59px;
+    left: 100px;
+    color: #9B9B9B;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.TextDivs{
+
+    height: 84px;
+    width: 300px;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.Ptext{
+    margin-top: 0px;
+}
+
+#Hashtags{
+    color: #55ACEE;
+}
+
+.DataDivs{
+
+    height: 24px;
+    width: 90px;
+    position: absolute;
+    left: 30px;
+    top: 204px;
+    font-family: "Roboto";
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.AmasArvicRaDavarqva{
+
+    width: 272px;
+    height: auto;
+    margin-top: 35px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Companies{
+    max-width: 278px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  
+}
+
+#icon{
+    height: 9px;
+    width: 5px;
+    margin-top: 8px;
+}
+
+#Footer{
+
+    width: 100%;
+    height: auto;
+    margin-top: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerdiv_1{
+    height: 17px;
+    width: 243px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.MoreInformation{
+
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerContact{
+    height: 24px;
+    width: 82px;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.footerHelp{
+    height: 24px;
+    width: 41px;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.footerTerms{
+    height: 20px;
+    width: 119px;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.footerPrivacy{
+    height: 24px;
+    width: 139px;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.DivOfWebContacts{
+    width: 80px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Twitter{
+    height: 14px;
+    width: 17px;
+}
+
+#Facebook{
+    height: 17px;
+    width: 8px;
+}
+
+#Youtube{
+    
+    background: rgba(255, 255, 255, 1);
+    height: 14px;
+    width: 20px;
+    border-radius: 5px;
+}
